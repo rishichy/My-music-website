@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>🎵 Rishi music world</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <nav>
+        <h2>🎵 Rishi music world</h2>
+
+        <a href="#">Home</a>
+        <a href="#"> My Songs</a>
+        <a href="#"> My Playlists</a>
+        <a href="#">Favorites❤️</a>
+        <a href="#">About</a>
+    </nav>
+   
+    <section class="hero">
+        <div class="hero-content">
+            <h1>🎵 Rishi music world</h1>
+            <p>
+                A collection of my favourite songs that define my mood, memories and moments!
+            </p>
+            <p>Welcome to my music world where I collect my favourite songs and memories!</p>
+            <button>Explore MY music</button>
+        </div>
+    </section>
+
+        <button onclick="playSong()">▶</button>
+        <button onclick="pauseSong()">⏸</button>
+        <button class="favorite-btn">♡</button>
+
+  <section class="playlists">
+     <input
+    type="text"
+    id="search"
+    placeholder="Search your favourite song..."
+>
+
+    <h2>My Playlists</h2>
+
+<div class="song-card">
+
+    <img src="images/song1(2).mp3" alt="Song cover">
+
+    <div class="song-info">
+
+        <h3>My Song</h3>
+
+        <p>My Artist</p>
+
+        <audio controls>
+            <source src="music/song1.mp3" type="audio/mpeg">
+        </audio>
+
+    </div>
+
+</div>
+
+    <div class="playlist-container">
+
+        <div class="playlist-card">
+
+            <img src="image chill.jpg" alt="Chill playlist">
+
+            <h3>Late Night Chill</h3>
+
+            <p>Relaxing songs for late nights.</p>
+
+        </div>
+
+
+
+        <div class="playlist-card">
+
+            <img src="image.jpg" alt="Energy playlist">
+
+            <h3>Energy Mode</h3>
+
+            <p>Songs that boost my mood.</p>
+
+        </div>
+
+
+        <div class="playlist-card">
+
+            <img src="image travel.jpg" alt="Travel playlist">
+
+            <h3>Travel Vibes</h3>
+
+            <p>My favourite travel songs.</p>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="songs">
+
+    <h2>My Favourite Songs</h2>
+
+    <div class="song-card">
+
+        <img src="images/song1.jpg" alt="Song cover">
+
+        <div class="song-info">
+
+            <h3>Song Name</h3>
+
+            <p>Artist Name</p>
+
+        </div>
+
+        <button class="play-btn">▶</button>
+
+    </div>
+<audio controls>
+    <source src="music/song1.mp3" type="audio/mpeg">
+</audio>
+
+
+    <div class="song-card">
+
+        <img src="images/song2.jpg" alt="Song cover">
+
+        <div class="song-info">
+
+            <h3>Another Song</h3>
+
+            <p>Artist Name</p>
+
+        </div>
+
+        <button class="play-btn">▶</button>
+
+    </div>
+
+</section>
+
+<div class="filters">
+
+    <button>All</button>
+    <button>Chill</button>
+    <button>Energy</button>
+    <button>Focus</button>
+    <button>Travel</button>
+
+</div>
+
+<div class="song-card" data-mood="chill">
+<div class="song-card" data-mood="energy"></div>
+</div>
+
+
+<div class="music-player">
+
+    <div>
+        <h3 id="currentSong">No song selected</h3>
+        <p id="currentArtist">---</p>
+    </div>
+
+    <button>⏮</button>
+    <button>▶</button>
+    <button>⏭</button>
+
+</div>
+<input
+    type="range"
+    id="progress"
+    min="0"
+    max="100"
+    value="0"
+>
+<section class="stats">
+
+    <div>
+        <h2>25</h2>
+        <p>Songs</p>
+    </div>
+
+    <div>
+        <h2>10</h2>
+        <p>Artists</p>
+    </div>
+
+    <div>
+        <h2>5</h2>
+        <p>Playlists</p>
+    </div>
+
+  <button id="themeButton">
+    🌙
+</button>  
+
+
+<div class="visualizer">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+</section>
+
+<section class="about">
+
+    <h2>About My Music</h2>
+
+    <p>
+        Music has always been a part of my daily life.
+        This website is a collection of songs that I
+        enjoy listening to. also this is my first website 
+       and this is my first project in web development.
+       i hope you like it and tell me the suggestion that you ccan give me
+
+
+    </p>
+
+</section>
+<footer>
+
+    <p>
+        © 2026 Rishi's Music World
+    </p>
+
+    <p>
+        Made with HTML, CSS & JavaScript and lots of love ❤️
+    </p>
+
+</footer>
+
+
+
+
+</body>
+</html>
